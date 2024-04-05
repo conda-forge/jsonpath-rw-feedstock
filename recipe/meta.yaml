@@ -14,7 +14,7 @@ build:
     - jsonpath = jsonpath_rw.bin.jsonpath:entry_point
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
-  number: 0
+  number: 1
 
 requirements:
   host:
